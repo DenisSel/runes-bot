@@ -26,7 +26,7 @@ api.on('message', function(message)
   api.sendPhoto({
     chat_id : message.chat.id,
     caption: 'This is my test image',
-    photo: '../src/img/1.jpeg'
+    photo: 'src/img/1.jpg'
   })
     .then(function(data)
     {
